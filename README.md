@@ -1,7 +1,7 @@
-# Semantic Kernel + WordOrb Plugin
+# Semantic Kernel + Word Orb Plugin
 
 Microsoft [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/)
-plugin for the [WordOrb.ai](https://wordorb.ai) vocabulary and lesson API.
+plugin for the [wordorb.ai](https://wordorb.ai) vocabulary and lesson API.
 
 Available in both **C#** and **Python**.
 
@@ -18,7 +18,7 @@ export WORDORB_API_KEY="wo_live_abc123"
 dotnet add package Microsoft.SemanticKernel
 ```
 
-Get a free WordOrb API key at [wordorb.ai/pricing](https://wordorb.ai/pricing).
+Get a Word Orb API key at [wordorb.ai/pricing](https://wordorb.ai/pricing).
 
 ## Kernel functions
 
@@ -92,7 +92,7 @@ To submit to the [Semantic Kernel plugin directory](https://learn.microsoft.com/
    - Plugin name, description, and author
    - List of kernel functions with parameter descriptions
    - A working code sample
-   - Link to WordOrb API documentation
+   - Link to Word Orb API documentation
 
 3. **Plugin manifest**: Include an `ai-plugin.json` manifest:
    ```json
@@ -113,7 +113,7 @@ To submit to the [Semantic Kernel plugin directory](https://learn.microsoft.com/
    }
    ```
 
-4. **OpenAPI spec**: The WordOrb API publishes its OpenAPI 3.1 spec at
+4. **OpenAPI spec**: The Word Orb API publishes its OpenAPI 3.1 spec at
    `https://wordorb.ai/.well-known/openapi.json`.
 
 ## License
